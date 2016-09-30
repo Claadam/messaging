@@ -1,4 +1,4 @@
-var Output = $("#Messgae");
+var Input = $("#Message");
 
 var firebaseConfig = {
   apiKey: "AIzaSyB4n3T-wB2G2UnIrMUU3hC7SqoXhPEb4L0",
@@ -12,7 +12,7 @@ var store = firebase.database().ref("challenge")
 
 function addMessage() {
   console.log("Adding message");
-  store.child("messages").push({message.html(Output)})	
+  store.child("messages").push({message.html(Input)})	
 }
 
 function readMessages(callback) {

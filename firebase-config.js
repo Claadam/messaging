@@ -1,3 +1,5 @@
+var Output = $("#Messgae");
+
 var firebaseConfig = {
   apiKey: "AIzaSyB4n3T-wB2G2UnIrMUU3hC7SqoXhPEb4L0",
   authDomain: "classadoo-dev.firebaseapp.com",

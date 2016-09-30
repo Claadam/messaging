@@ -13,7 +13,7 @@ var store = firebase.database().ref("challenge")
 function addMessage() {
   console.log("Adding message");
   store.child("messages").push({message.val(Input)})	
-}
+}f
 
 function readMessages(callback) {
   console.log("binding");

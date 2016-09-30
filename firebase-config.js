@@ -10,7 +10,7 @@ var store = firebase.database().ref("challenge")
 
 function addMessage() {
   console.log("Adding message");
-  store.child("messages").push({message: "我知道... 我的未来不是梦！我认真睇过每一分钟，wo"})	
+  store.child("messages").push({message <img href="">})	
 }
 
 function readMessages(callback) {

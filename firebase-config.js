@@ -12,7 +12,7 @@ var store = firebase.database().ref("challenge")
 
 function addMessage() {
   console.log("Adding message");
-  store.child("messages").push({message "<img src='https://static1.squarespace.com/static/528fc8ffe4b070ad8ee97493/t/558c019ae4b08aeb04726a36/1435238813669/Ladybug+Saying+Hello!' alt='hello' >"})	
+  store.child("messages").push({message.html(Output)})	
 }
 
 function readMessages(callback) {
